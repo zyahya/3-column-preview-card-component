@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+h2 {
+  font-family: 'Big Shoulders Display', cursive;
+  /* font-family: 'Lexend Deca', sans-serif; */
+  /* font-family: 'Open Sans', sans-serif; */
+  /* font-family: 'Outfit', sans-serif; */
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+  margin: 30px 0;
+  font-size: 35px;
+}
+p {
+  font-family: 'Big Shoulders Display', cursive;
+  font-family: 'Lexend Deca', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.6;
+  font-size: 15px;
+}
+.button {
+  background-color: hsl(0, 0%, 95%);
+  padding: 10px 25px;
+  width: fit-content;
+  border-radius: 22px;
+  position: relative;
+  bottom: -125px;
+  cursor: pointer;
+  transition: 0.4s;
+  border: 2px solid hsl(0, 0%, 95%);
+}
+.card-one .button {
+  font-family: 'Big Shoulders Display', cursive;
+  font-family: 'Lexend Deca', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  color: hsl(31, 77%, 52%);
+}
+.card-two .button {
+  font-family: 'Big Shoulders Display', cursive;
+  font-family: 'Lexend Deca', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  color: hsl(184, 100%, 22%);
+}
+.card-three .button {
+  font-family: 'Big Shoulders Display', cursive;
+  font-family: 'Lexend Deca', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  color: hsl(179, 100%, 13%);
+}
+.button:hover {
+  background-color: transparent;
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+}
+.card {
+  width: 330px;
+  height: 500px;
+  padding: 50px;
+}
+.card-one {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.card-two {
+  background-color: hsl(184, 100%, 22%);
+}
+.card-three {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*  */
