@@ -78,10 +78,23 @@ p {
 }
 .container {
   display: flex;
-  flex-direction: row;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/*  */
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+    margin-top: 350px;
+  }
+  .card-one {
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+  }
+  .card-three {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+}
